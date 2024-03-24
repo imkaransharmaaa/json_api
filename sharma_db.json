@@ -1,0 +1,58 @@
+{
+  "furniture": [
+    {
+      "id": 1,
+      "name": "Sofa",
+      "description": "Comfortable 3-seater sofa",
+      "quantity_available": 5,
+      "price_per_hour": 10.00
+    },
+    {
+      "id": 2,
+      "name": "Dining Table",
+      "description": "Sturdy wooden dining table",
+      "quantity_available": 3,
+      "price_per_hour": 8.00
+    },
+    {
+      "id": 3,
+      "name": "Armchair",
+      "description": "Plush armchair for relaxation",
+      "quantity_available": 2,
+      "price_per_hour": 5.00
+    },
+    {
+      "id": 4,
+      "name": "Bookshelf",
+      "description": "Wooden bookshelf with multiple shelves",
+      "quantity_available": 7,
+      "price_per_hour": 6.00
+    }
+  ],
+  "bookings": [
+    {
+      "booking_id": "ABC123",
+      "furniture_id": 1,
+      "quantity": 2,
+      "duration_hours": 4,
+      "total_price": 80.00,
+      "booking_date": "2024-04-10T12:00:00"
+    },
+    {
+      "booking_id": "DEF456",
+      "furniture_id": 2,
+      "quantity": 1,
+      "duration_hours": 3,
+      "total_price": 24.00,
+      "booking_date": "2024-04-12T10:00:00"
+    },
+    {
+      "booking_id": "GHI789",
+      "furniture_id": 3,
+      "quantity": 3,
+      "duration_hours": 6,
+      "total_price": 90.00,
+      "booking_date": "2024-04-15T15:00:00"
+    }
+  ]
+}
